@@ -1,0 +1,19 @@
+# You sell lemonade over two weeks , the list show number of lemonade sold per week 
+# Profit for each lemonade sold is $1.5
+# Add another day to week 2 list by capturing a number as input
+# Combine the two lists into the list called 'sales' 
+# Calculate/print how much you have earned on , Best day , Worst day , Separartely and in total 
+
+Sales_w1 = [20, 30, 25, 40, 35, 50, 45]  # Lemonade sold in week 1
+Sales_w2 = [30, 25, 35, 40, 45, 50, 55]  
+Sales =[]
+new_day = input('Enter the number of lemonades sold on the new day for week 2: ')
+Sales_w2.append(int(new_day))
+Sales = Sales_w1 + Sales_w2
+# Sales.sort()
+worst_day = min(Sales) * 1.5
+best_day = max(Sales) * 1.5
+total_sales = sum(Sales) * 1.5
+print (f'Worst day profit: ${worst_day}')
+print(f'Best day profit: ${best_day}')
+print(f'Total profit: ${total_sales}')
