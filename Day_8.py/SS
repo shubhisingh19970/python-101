@@ -1,2 +1,0 @@
-friends = ['Eric','Chad','Leo','Sam']
-print(friends)
