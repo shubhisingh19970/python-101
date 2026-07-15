@@ -14,7 +14,7 @@ total_price = 0.0
 drink_count = 0
 
 while True:
-  name = input("Enter customer name ( or tyoe done to finish );")
+  name = input("Enter customer name ( or type done to finish );")
   if name == "done":
    break 
   drink = input ("Enter order for " + name + " : ")
