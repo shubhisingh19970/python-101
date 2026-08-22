@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My HTML Page</title>
+    </head>
+    <body>
+        <h1>Welcome to My Page</h1> <!-- tag 1 Creates a main heading -->
+        <p>This is a simple HTML page.</p> <!-- tag 2 Creates a paragraph -->
+        <a href = " https:// www.google.com ">Visit Google</a><!-- tag 3 Creates a hyperlink -->
+        <br><br>
+        <img src="image.jpg" alt="Description of image"><!-- tag 4 Creates an image -->
+    <body>
+        <h1> MY name is Shubhi Singh</h1>
+        <h2> My name is Shubhi Singh</h2>
+        <h3> My name is Shubhi Singh</h3>
+        <h4> My name is Shubhi Singh</h4>
+        <h5> My name is Shubhi Singh</h5>
+        <h6> My name is Shubhi Singh</h6>
+    </body>
+
+    <html>
+        <head> <tittle> My page using unorderd list </tittle></head>
+        <body bgcolour = pink >
+            <p>
+                <font size = 6> <br>
+                There are <b</font>
+            </p>
+        </body>
+    </html>
+
+    <ol type = "A">
+        <li> First item </li>
+        <li> Second item </li>
+        start "Z"
+        <li> Third item </li>
