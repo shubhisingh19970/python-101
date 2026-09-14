@@ -1,42 +1,42 @@
-movie = {
-    'title' : 'Life of Brian',
-    'year' : 1979,
-    'cast' : ['John','Eric','Michael','George','Terry']
-}
-print("{Dictionaries}")
+#Dictionaries are used to store data values in key:value pairs. A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
 
+
+
+#1
 movie = {
-    'title' : 'Life of Brian',
-    'year' : 1979,
-    'cast' : ['John','Eric','Michael','George','Terry']
+    'title':'Life of Pi',
+    'Year':2012,
+    'Cate':['John','Jill','Jack']
+
 }
-movie['title'] = 'The Holy Grail'
+print(movie)
+#If we want to print parts of it
+print(movie['title'])
+
+#If you want to update the dictionary
+movie['title'] = 'The Holy'
+print(movie.get('title'))
+#If u wanna set something that doesn't exists
+print(movie.get('budget','not found'))
 movie['budget'] = 250000
+print(movie.get('budget'))
+
+#If u wanna update the whole dictionary 
+
+movie.update({'tittle':'The Holy',
+              'year':1975,'cast':['John','Jack','Wes']})
 print(movie)
 
-movie = {
-    'title' : 'Life of Brian',
-    'year' : 1979,
-    'cast' : ['John','Eric','Michael','George','Terry']
-}
-movie.update({'title' : 'The Holy Grail','year':1975,'cast':['John','Eric','Michael','George','Terry']})
-movie['budget'] = 250000
-del movie['year']
-print(movie)
+# If u wanna delete entries 
+#del movie ['year']
+#print(movie)
 
+#pop command 
+year = movie.pop ('year')
+print(year)
 
-movie = {
-    'title' : 'Life of Brian',
-    'year' : 1979,
-    'cast' : ['John','Eric','Michael','George','Terry']
-}
-
+#If u want the length of the dictionary how many entries there are
 print(len(movie))
-
 print(movie.keys())
-
-for key in movie:
-    print(key)
-
-for key, value in movie.items():
-    print(key, value)
+print(movie.values())
+print(movie.items())
